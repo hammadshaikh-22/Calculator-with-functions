@@ -55,3 +55,14 @@ function Div(a,b){
 }
 
 getInput()
+
+
+function Fact(){
+    var result = 1
+    var num = prompt("Enter any number: ")
+    for (i = num ; i>0 ; i--){
+        result = result * i
+    }
+    console.log(result)
+}
+Fact()
